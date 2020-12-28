@@ -62,6 +62,11 @@ const Resolutions = {
         width: 320,
         height: 240,
         order: 1
+    },
+    'cif': {
+        width: 88,
+        height: 72,
+        order: 1
     }
 };
 
