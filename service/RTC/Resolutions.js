@@ -52,6 +52,22 @@ const Resolutions = {
         order: 3
     },
 
+    'SUB-QCIF': {
+        width: 128,
+        height: 96,
+        order: 2
+    },
+    'QQVGA': {
+        width: 160,
+        height: 120,
+        order: 2
+    },
+    'QCIF': {
+        width: 176,
+        height: 144,
+        order: 2
+    },
+
     // 16:9 resolution first.
     '180': {
         width: 320,
@@ -61,6 +77,11 @@ const Resolutions = {
     '320': {
         width: 320,
         height: 240,
+        order: 2
+    },
+    'QQCIF': {
+        width: 88,
+        height: 72,
         order: 1
     }
 };
